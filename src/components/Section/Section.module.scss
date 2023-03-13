@@ -1,0 +1,25 @@
+.wrapper {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+
+  + .wrapper {
+    margin-top: 50px;
+  }
+
+  .title {
+    flex: 0 1 auto;
+
+    h1, h2 {
+      text-align: center;
+    }
+  }
+
+  .content {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
