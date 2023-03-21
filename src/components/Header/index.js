@@ -7,9 +7,11 @@ function Header() {
         </div>
         <div className={styles["menu-container"]}>
             <div className={styles["menu-wrapper"]}>
-                <div className={styles["menu-item"]}>Menu 1</div>
-                <div className={styles["menu-item"]}>Menu 1</div>
-                <div className={styles["menu-item"]}>Menu 1</div>
+                <a href="/#about" className={styles["menu-item"]}>Giới thiệu</a>
+                <a href="/#leader" className={styles["menu-item"]}>Lãnh đạo</a>
+                <a href="/#member" className={styles["menu-item"]}>Thành viên</a>
+                <a href="/#tool" className={styles["menu-item"]}>Công cụ</a>
+                <a href="/#contact" className={styles["menu-item"]}>Liên hệ</a>
             </div>
         </div>
     </div>

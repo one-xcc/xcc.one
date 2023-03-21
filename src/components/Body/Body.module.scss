@@ -8,4 +8,28 @@
   &::-webkit-scrollbar {
     display: none;
   }
+
+  .about-wrapper {
+    display: flex;
+
+    .about-details {
+      padding: 40px;
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .about-image {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        height: 80%;
+      }
+    }
+  }
 }
