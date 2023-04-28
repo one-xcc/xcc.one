@@ -16,9 +16,19 @@
       padding: 40px;
       width: 60%;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
+
+      .about-bar {
+        margin-bottom: 5px;
+        width: 100%;
+
+        .tab-btn {
+          color: white;
+        }
+      }
     }
 
     .about-image {
@@ -30,6 +40,21 @@
       img {
         height: 80%;
       }
+    }
+  }
+
+  .contact-wrapper {
+    width: 100%;
+    display: flex;
+
+    .contact-info {
+      width: 60%;
+    }
+
+    .social-info {
+      width: 40%;
+      display: flex;
+      justify-content: center;
     }
   }
 }

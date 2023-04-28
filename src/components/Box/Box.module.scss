@@ -1,7 +1,5 @@
 .wrapper {
   padding: 5px;
-  height: 100%;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +14,21 @@
     width: 200px;
   }
 
+  h2, h3 {
+    color: white;
+    text-decoration: underline;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
   p {
+    color: white;
+  }
+
+  i {
+    font-size: 2rem;
     color: white;
   }
 
@@ -29,4 +41,12 @@
     transform: translate(-3px, -3px);
     transition: .3s;
   }
+}
+
+.img-in {
+  height: 150px;
+}
+
+.box-1on3 {
+  width: 25%;
 }

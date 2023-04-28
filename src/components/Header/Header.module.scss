@@ -1,6 +1,6 @@
 .wrapper {
   margin: 10px;
-  height: 50px;
+  height: 60px;
   width: calc(100% - 20px);
   display: flex;
   justify-content: space-between;
@@ -10,27 +10,24 @@
 
   .logo-container {
     padding: 5px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+
+    img {
+      width: 100%;
+    }
   }
 
   .menu-container {
+    width: 40%;
+
     .menu-wrapper {
       padding: 5px;
       height: 100%;
       display: flex;
-
-      .menu-item {
-        padding: 5px;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: rgba(255, 255, 255, 0.6);
-        border-radius: 5px;
-
-        + .menu-item {
-          margin-left: 5px;
-        }
-      }
     }
   }
   z-index: 2;

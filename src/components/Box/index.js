@@ -1,7 +1,7 @@
 import styles from "./Box.module.scss";
 
-function Box({children}) {
-    return <div className={styles["wrapper"]}>
+function Box({className, children}) {
+    return <div className={styles["wrapper"] + " " + styles[className]}>
         {children}
     </div>
 }
