@@ -27,8 +27,53 @@
     .menu-wrapper {
       padding: 5px;
       height: 100%;
-      display: flex;
+
+      .nav-bar {
+        height: 100%;
+        display: flex;
+      }
+
+      .canvas-menu {
+        display: none;
+      }
     }
   }
   z-index: 2;
+
+  @media (max-width: 600px) {
+    .logo-container {
+      width: 35%;
+    }
+
+    .menu-container {
+      width: 15%;
+
+      .menu-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .nav-bar {
+          display: none;
+        }
+
+        .canvas-menu {
+          height: 50%;
+          display: inline;
+
+          i {
+            font-size: 1.5rem;
+          }
+
+          .menu-list {
+
+          }
+
+          .closing {
+            display: none;
+          }
+        }
+      }
+    }
+  }
 }

@@ -16,7 +16,7 @@ function Body() {
         "We connect members together in cooperation on market, technology, knowledge, … to promote mutual development in multi-fields. ONE XCC Network aims at the common development of the nation, the common prosperity of the country.",
         "We connect ...",
         "We connect members ..."
-    ]
+    ];
 
     const [detail, setDetail] = useState(aboutDetails[0]);
 
@@ -82,20 +82,21 @@ function Body() {
                     <p>
                         📍 <b>Address</b>: Now is online <br/>
                         📞 <b>Tel</b>: Now is online <br/>
-                        📨 <b>Email</b>: Now is online<br/>
-                        🌐 <b>Website</b>: xcc.one</p>
+                        📨 <b>Email</b>: contact@xcc.one<br/>
+                        🌐 <b>Website</b>: xcc.one
+                    </p>
                 </div>
             </Box>
         </div>
         <div className={styles["social-info"]}>
             <Box className={"box-1on3"}>
-                <i className="fi fi-brands-facebook"></i>
+                <a href={"https://facebook.com"}><i style={{color: "#4267B2"}} className="fi fi-brands-facebook"></i></a>
             </Box>
             <Box className={"box-1on3"}>
-                <i className="fi fi-brands-youtube"></i>
+                <a href={"https://youtube.com"}><i style={{color: "#FF0000"}} className="fi fi-brands-youtube"></i></a>
             </Box>
             <Box className={"box-1on3"}>
-                <i className="fi fi-brands-github"></i>
+                <a href={"https://github.com"}><i style={{color: "#BF5B94"}} className="fi fi-brands-github"></i></a>
             </Box>
         </div>
     </div>

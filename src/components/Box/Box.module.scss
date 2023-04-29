@@ -1,5 +1,5 @@
 .wrapper {
-  padding: 5px;
+  padding: 1%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,4 +49,8 @@
 
 .box-1on3 {
   width: 25%;
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 }

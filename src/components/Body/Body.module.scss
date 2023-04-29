@@ -57,4 +57,36 @@
       justify-content: center;
     }
   }
+
+  @media (max-width: 600px) {
+    .about-wrapper {
+      flex-direction: column;
+
+      .about-details {
+        padding: 10px;
+        width: 100%;
+      }
+
+      .about-image {
+        width: 100%;
+
+        img {
+          height: 400px;
+        }
+      }
+    }
+
+    .contact-wrapper {
+      flex-direction: column;
+
+      .contact-info {
+        width: 100%;
+      }
+
+      .social-info {
+        margin-top: 10px;
+        width: 100%;
+      }
+    }
+  }
 }
