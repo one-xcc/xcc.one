@@ -13,9 +13,9 @@ import {useState} from "react";
 
 function Body() {
     const aboutDetails = [
-        "We connect members together in cooperation on market, technology, knowledge, … to promote mutual development in multi-fields. ONE XCC Network aims at the common development of the nation, the common prosperity of the country.",
-        "We connect ...",
-        "We connect members ..."
+        "Chúng tôi kết nối các thành viên với nhau trong sự hợp tác về thị trường, công nghệ, tri thức,… để cùng nhau phát triển trên nhiều lĩnh vực. Mạng lưới ONE XCC hướng tới sự phát triển chung của dân tộc, sự thịnh vượng chung của đất nước.",
+        "Chúng tôi kết nối các thành viên với nhau trong sự hợp tác về thị trường, công nghệ, tri thức,… để cùng nhau phát triển trên nhiều lĩnh vực. Mạng lưới ONE XCC hướng tới sự phát triển chung của dân tộc, sự thịnh vượng chung của đất nước.",
+        "Chúng tôi kết nối các thành viên với nhau trong sự hợp tác về thị trường, công nghệ, tri thức,… để cùng nhau phát triển trên nhiều lĩnh vực. Mạng lưới ONE XCC hướng tới sự phát triển chung của dân tộc, sự thịnh vượng chung của đất nước."
     ];
 
     const [detail, setDetail] = useState(aboutDetails[0]);
@@ -51,15 +51,15 @@ function Body() {
                 <Box>
                     <Button active={true} onClick={(e) => {
                         setDetail(aboutDetails[0]);
-                        setActiveBtn(e);}}>Vision
+                        setActiveBtn(e);}}>Tầm nhìn
                     </Button>
                     <Button onClick={(e) => {
                         setDetail(aboutDetails[1]);
-                        setActiveBtn(e);}}>Mission
+                        setActiveBtn(e);}}>Sứ mệnh
                     </Button>
                     <Button onClick={(e) => {
                         setDetail(aboutDetails[2]);
-                        setActiveBtn(e);}}>Core values
+                        setActiveBtn(e);}}>Giá trị cốt lõi
                     </Button>
                 </Box>
             </div>
@@ -107,6 +107,7 @@ function Body() {
         <Section id={"member"} sec={sections.member}>{membersLogo}</Section>
         <Section id={"tool"} sec={sections.tool}>{toolsLogo}</Section>
         <Section id={"contact"} sec={sections.contact}>{contactContent}</Section>
+        <div id={styles["copyright"]}>© 2023 ONE XCC Network. All rights reversed.</div>
     </div>
 }
 

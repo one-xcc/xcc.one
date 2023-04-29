@@ -18,16 +18,15 @@ function Header() {
                 </div>
                 <div className={styles["canvas-menu"]}>
                     <i className="fi fi-rr-apps" onClick={() => {
-                        const menuList = document.querySelector(styles[".menu-list"]);
-                        console.log(menuList)
-                        menuList.classList.toggle(styles[".closing"]);}}>
+                        const menuList = document.querySelector("." + styles["menu-list"]);
+                        menuList.classList.toggle(styles["closing"]);}}>
                     </i>
                     <div className={styles["menu-list"] + " " + styles["closing"]}>
-                        <a href="/#about">Giới thiệu</a>
-                        <a href="/#leader">Lãnh đạo</a>
-                        <a href="/#member">Thành viên</a>
-                        <a href="/#tool">Công cụ</a>
-                        <a href="/#contact">Liên hệ</a>
+                        <a onClick={e => e.target.parentNode.classList.add(styles["closing"])} href="/#about">Giới thiệu</a>
+                        <a onClick={e => e.target.parentNode.classList.add(styles["closing"])} href="/#leader">Lãnh đạo</a>
+                        <a onClick={e => e.target.parentNode.classList.add(styles["closing"])} href="/#member">Thành viên</a>
+                        <a onClick={e => e.target.parentNode.classList.add(styles["closing"])} href="/#tool">Công cụ</a>
+                        <a onClick={e => e.target.parentNode.classList.add(styles["closing"])} href="/#contact">Liên hệ</a>
                     </div>
                 </div>
             </div>
