@@ -11,7 +11,7 @@ function Header() {
             <div className={styles["menu-wrapper"]}>
                 <div className={styles["nav-bar"]}>
                     <Button href="/#about">Giới thiệu</Button>
-                    <Button href="/#leader">Lãnh đạo</Button>
+                    <Button href="/#pioneer">Tiên phong</Button>
                     <Button href="/#member">Thành viên</Button>
                     <Button href="/#tool">Công cụ</Button>
                     <Button href="/#contact">Liên hệ</Button>
@@ -23,7 +23,7 @@ function Header() {
                     </i>
                     <div className={styles["menu-list"] + " " + styles["closing"]}>
                         <a onClick={e => e.target.parentNode.classList.add(styles["closing"])} href="/#about">Giới thiệu</a>
-                        <a onClick={e => e.target.parentNode.classList.add(styles["closing"])} href="/#leader">Lãnh đạo</a>
+                        <a onClick={e => e.target.parentNode.classList.add(styles["closing"])} href="/#pioneer">Lãnh đạo</a>
                         <a onClick={e => e.target.parentNode.classList.add(styles["closing"])} href="/#member">Thành viên</a>
                         <a onClick={e => e.target.parentNode.classList.add(styles["closing"])} href="/#tool">Công cụ</a>
                         <a onClick={e => e.target.parentNode.classList.add(styles["closing"])} href="/#contact">Liên hệ</a>
